@@ -1,13 +1,13 @@
 public class WelcomeStr {
     public static void main(String[] args) {
-        String text = new String("Dzien dobry / Hallo / Hello");
+        String text = "Dzien dobry / Hallo / Hello";
         //vertically, each character on a separate line
         System.out.println("**********************************************");
         System.out.println("vertically");
         System.out.println("**********************************************");
         char[] chars = text.toCharArray();
-        for(int i = 0; i < chars.length; i++){
-            System.out.println(chars[i]);
+        for (char aChar : chars) {
+            System.out.println(aChar);
         }
         //horizontally - characters separated by additional spaces
         System.out.println("**********************************************");
