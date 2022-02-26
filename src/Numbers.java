@@ -1,8 +1,8 @@
 public class Numbers {
     public static void main(String[] args) {
-        String numbers = "";
+        StringBuilder numbers = new StringBuilder();
         for(int i=48; i <58;i++){
-            numbers += (char) i;
+            numbers.append((char) i);
         }
         System.out.println(numbers);
     }
